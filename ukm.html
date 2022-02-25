@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data</title>
+    <style>
+        body {
+            background-image: url("gambar6.png");
+            background-position: 50%;
+        }
+        
+        .kotak {
+            margin-left: 25%;
+            margin-right: 25%;
+            background-color: gray;
+            border-radius: 10px;
+            border: solid;
+        }
+        
+        .tulisan {
+            text-align: center;
+            border-bottom: solid;
+        }
+        
+        .isi {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak">
+        <div class="tulisan">
+            <marquee>
+                <h1>Tambah Anggota</h1>
+            </marquee>
+        </div><br>
+        <div class="isi">
+            <form>
+                <label>
+                <input type="text" placeholder="masukkan id" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan nim" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan nama" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <input type="file" placeholder="Chose file">
+                <br><br>
+                <p>Jenis Kelamin</p>
+                <input type="radio" name="jen_kelamin"><label>Laki-laki</label>
+                <input type="radio" name="jen_kelamin"><label>Perempuan</label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan alamat" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder=" masukkan nomor telepon" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="email" placeholder="example@gmail.com" style="width:98%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan nama akun git hub" style="width:98%; height:25px">
+                </label>
+                <br><br>
+                <select style="width: 99%;height: 25px;">
+                    <option>--pilih program studi--</option>
+                    <option>tekhnik informatika</option>
+                    <option>sistem informatika</option>
+                </select>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan kelas" style="width:99%; height:25px">
+                </label>
+                <br><br>
+
+                <label>
+                <input type="text" placeholder="masukkan angkatan" style="width:99%; height:25px">
+                </label>
+                <br><br>
+
+                <div class="tombol">
+                    <a href="#">Batal</a>
+                    <button type="submit">Simpan</button>
+                </div>
+                <br>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
