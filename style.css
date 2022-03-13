@@ -5,12 +5,15 @@ body {
 .container {
     margin-left: 12%;
     margin-right: 12%;
-    border: solid 2px black;
+    border: solid 4px black;
     padding: 1%;
+    border-radius: 5px;
 }
 
 .gambar {
     text-align: center;
+    margin-top: 20px;
+    border-bottom: solid 3px black;
 }
 
 .tulisan1 {
@@ -22,10 +25,15 @@ body {
 }
 
 .pusing {
+    border-top: solid 3px black;
     text-align: center;
 }
 
 .style {
     max-width: 600px;
     margin: 3em auto;
+}
+
+.link {
+    border-bottom: solid 3px black;
 }
